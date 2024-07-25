@@ -1,0 +1,28 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+
+</script>
+
+
+<template>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 404 not found </title>
+</head>
+
+<body>
+    <h1> Error 404 </h1>
+
+    <img src="../Assets/images/93448588-erreur-vecteur-icône.jpg" alt="image d'erreur" width="250px" height="250px">
+</body>
+</html>
+ 
+</template>
+
+<style scoped>
+
+</style>
