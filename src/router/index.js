@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Portefolio from '../views/Portefolio.vue'
 import CV from '../views/CV.vue'
 import PageErreur from '../views/PageErreur.vue'
+import DEC from '../views/DEC.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,6 +19,11 @@ const router = createRouter({
       component: CV 
     },
     {
+      path: '/DEC',
+      name: 'DEC',
+      component: DEC 
+    },
+    {
       path: '/PageErreur',
       name: 'PageErreur',
       component: PageErreur 
@@ -30,10 +36,10 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
-   /* {
+   {
       path: '/:pathMatch(.*)*',
       component: PageErreur,
-    },*/
+    },
   ]
 })
 

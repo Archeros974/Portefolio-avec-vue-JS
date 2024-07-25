@@ -1,6 +1,9 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 
+function readFile(){
+     window.open('src/assets/PDF/CahierDesCharges.pdf', '_blank');
+   }
 
 </script>
 
@@ -48,12 +51,12 @@ import { RouterLink } from 'vue-router'
             <routerLink to="/cv"> <img src="../Assets/images/cv.png" id="img-1"> </routerLink>
             
             <p><b>Un cahier des charges</b></p>
-            
-            <a href="../assets/PDF/CahierDesCharges.pdf" target="_blank"> <img src="../Assets/images/illu_rediger-correctement-un-cahier-des-charges.png" id="img-2"> </a>
-<!-- <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" :src="./Assets/PDF/CahierDesCharges.pdf" frameborder="1" scrolling="auto" width="100%" height="600px" ></iframe> -->
-            
+            <a @click="readFile"> <img src="../Assets/images/illu_rediger-correctement-un-cahier-des-charges.png" id="img-2"> </a>
+
             <p><b>Dynamisation d'un espace commentaire</b></p>
-            <a href="./créations/Devoir 3 Dynamiser espace commentaire/index.html" target="_blank"> <img src="../Assets/images/espace.png" id="img-3"> </a>
+              <routerLink to="/DEC"> <img src="../Assets/images/espace.png" id="img-3"> </routerLink>
+
+            
 
         <h3> Compétences </h3>
             <ul> HTML 5 - Débutant </ul>
