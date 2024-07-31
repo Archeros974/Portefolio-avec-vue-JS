@@ -41,7 +41,7 @@ function readFile(){
                     à relever des défis et à résoudre toutes sortes de problématique. 
                     Voulant me perfectionner dans le mon du jeu vidéo, détermination
                     sans faille. Mon expertise technique, couplée à ma soif de perfection,
-                    fait de moi un acteur incontournable dans le monde numérique en perpétuelle évolution.</article>
+                    font de moi un acteur incontournable dans le monde numérique en perpétuelle évolution.</article>
       </div>
 
       <div id="bloc-2">
@@ -72,7 +72,7 @@ function readFile(){
     <a href="https://www.facebook.com/quentin.legros.18" target="_blank">  <img src="../Assets/images/facebook.png" alt="icône Facebook" id="img-2"></a>
     <a href="https://www.linkedin.com/in/quentin-hoarau-7051a326a/ " target="_blank">  <img src="../Assets/images/linkedin.png" alt="icône Linkedin" id="img-3"></a>
     <a href="https://github.com/Archeros974" target="_blank">  <img src="../Assets/images/github.png" alt="icône Github" id="img-4"></a>
-    <small>Dernière Mise à jour le 30 Janvier </small>  
+    <small>Dernière Mise à jour le 30 juillet 2024 </small>  
   </footer>
 
 </body>
@@ -120,6 +120,13 @@ img{
   border-radius: 50%;
 }
 
+#img-4{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+
 figure{ 
   width: 130px;
   height: 130px;
@@ -128,8 +135,6 @@ figure{
 header {
     border: 2px solid #ffd700;
     background-color: rgb(59, 33, 175);
-    padding: 20px;
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,7 +163,7 @@ a{
       width: 100%;
       height: 50px;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
   }
 
@@ -205,8 +210,6 @@ a{
     footer {
         border: 2px solid #ffd700;
         background-color: rgb(59, 33, 175);
-        padding: 20px;
-        margin: 20px;
         display: flex;
         flex-direction: row;
         justify-content: center;

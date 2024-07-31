@@ -42,20 +42,20 @@ import { RouterLink } from 'vue-router'
                                 à relever des défis et à résoudre toutes sortes de problématique. 
                                 Voulant me perfectionner dans le mon du jeu vidéo, détermination
                                 sans faille. Mon expertise technique, couplée à ma soif de perfection,
-                                fait de moi un acteur incontournable dans le monde numérique en perpétuelle évolution.</article>
+                                font de moi un acteur incontournable dans le monde numérique en perpétuelle évolution.</article>
                     <h3> Langues parlées </h3>
-                        <li>
-                            <ul> Français - Parfaitement </ul>
-                            <ul> Anglais - intermédiaire </ul>
-                            <ul> Japonais - Débutant </ul>
-                            <ul> Créole Réunionnais - Langue maternelle </ul>
-                        </li>
+                        
+                            <ul id="liste"> Français - Parfaitement </ul>
+                            <ul id="liste-2"> Anglais - intermédiaire </ul>
+                            <ul id="liste-3"> Japonais - Débutant </ul>
+                            <ul id="liste-4"> Créole Réunionnais - Langue maternelle </ul>
+                        
                     <h3> Centres d'intérêts </h3>
-                        <li>
-                            <ul> Jeux vidéos </ul>
-                            <ul> Voyages </ul>
-                            <ul> Animaux </ul>
-                        </li>
+                     
+                            <ul id="liste-5"> Jeux vidéos </ul>
+                            <ul id="liste-6"> Voyages </ul>
+                            <ul id="liste-7"> Animaux </ul>
+                    
                 </div>
                
                 <div id="bloc-3">
@@ -133,7 +133,7 @@ header{
 
 
 section{
-    width: 1160px;
+    width: 1216px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -254,11 +254,28 @@ article{
     text-indent: 50px;
     text-align: justify;
     width: 300px;                    
-    height: 160px;
     padding: 10px;
     margin: 20px;
     color: white;
+}
 
+#liste{
+    color: white;
+}
+#liste-2{
+    color: white;
+}#liste-3{
+    color: white;
+}#liste-4{
+    color: white;
+}#liste-5{
+    color: white;
+}#liste-6{
+    color: white;
+}#liste-7{
+    color: white;
+}#liste-8{
+    color: white;
 }
 
 p{
@@ -286,5 +303,4 @@ a:hover{
 small{
     color: white;
 }
-
 </style>
